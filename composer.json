@@ -1,0 +1,15 @@
+{
+    "name": "Guardian Key",
+    "description": "Use Artificial Intelligence for improve security of login",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Paulo Angelo e Gesiel Bernardes"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>guardiankey</id>
+    <name>Guardian Key</name>
+    <summary>Use Artificial Intelligence for improve security of login</summary>
+    <description><![CDATA[GuardianKey is a system that use anomaly detection  based of artificial intelligence  for increase a security of login. More info: https://guardiankey.io]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="contact@guardiankey.io" homepage="https://guardiankey.io">Paulo Angelo e Gesiel Bernardes</author>
+    <namespace>GuardianKey</namespace>
+    <category>security</category>
+    <category>tools</category>
+    <bugs>https://guardiankey.io/reports</bugs>
+    <dependencies>
+        <nextcloud min-version="13" max-version="13"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Guardian Key</name>
+            <route>guardiankey.page.index</route>
+        </navigation>
+    </navigations>
+</info>
